@@ -1,0 +1,26 @@
+{
+  "name": "ipm",
+  "authors": [
+    "Max"
+  ],
+  "description": "proyecto de diseño web",
+  "main": "index.html",
+  "keywords": [
+    "ulsa",
+    "ipm",
+    "html"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
