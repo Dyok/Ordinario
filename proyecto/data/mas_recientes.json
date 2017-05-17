@@ -1,0 +1,23 @@
+{
+  {
+  "id":1,
+  "titulo":"Snipet 1",
+  "descripcion":"Descripcion del snipset 1",
+  "votos": 50,
+  "imagen": "http://placehold.it/300x200/0000ff/ffffff"
+  }
+  {
+  "id":1,
+  "titulo":"Snipet 2",
+  "descripcion":"Descripcion del snipset 2",
+  "votos": 10,
+  "imagen": "http://placehold.it/300x200/0000ff/ffffff"
+  }
+  {
+  "id":1,
+  "titulo":"Snipet 3",
+  "descripcion":"Descripcion del snipset 3",
+  "votos": 3,
+  "imagen": "http://placehold.it/300x200/0000ff/ffffff"
+  }
+}

@@ -1,0 +1,18 @@
+body{
+  background: #00B3FF url(http://wallpapercave.com/wp/XkvlRXh.jpg);
+}
+
+.categorias {
+  background-color:#00B3FF;
+}
+
+.tmg {
+  font-size: 100px;
+}
+.btn-mio{
+    border-radius: 0;
+    border:solid 2px;
+}
+.titulo-seccion{
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
