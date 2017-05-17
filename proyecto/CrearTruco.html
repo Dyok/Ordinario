@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi aplicación</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    
+</head>
+<body>
+  
+<!-- Header -->
+  
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/">
+                    <img src="" alt="Logo de X Trucos">
+                </a>
+            </div>
+        </div>
+      
+<!-- Botones de inicio -->
+      
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/">Menu Principal
+              <span class="glyphicon glyphicon-home"></span> </a></li>
+            <li role="presentation"><a  href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/InicioDeSesion.html">Iniciar Sesion
+              <span class="glyphicon glyphicon-sunglasses"></span> </a></li>
+            <li role="presentation"><a href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/Perfil.html">Perfil
+              <span class="glyphicon glyphicon-user"></span> </a></li>
+            <li role="presentation"><a href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/Mensajes.html">Mensajes
+               <span class="glyphicon glyphicon-envelope"></span> </a></li>
+          <li role="presentation"><a href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/CrearTruco.html">Agregar Truco
+            <span class="glyphicon glyphicon-download-alt"></span> </a></li>
+        </ul>
+    </nav>
+  
+  <!------ Perfil de usuario ------>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <div>
+                  <img src="http://i2.wp.com/www.clinicatorielli.com/img/icons/no-user.png" width=140 height=140 alt="Avatar">
+                  <h3><strong>Usuario X</strong></h3>
+									<li><a href="#">Informacion Personal</a></li>
+                  <li><a href="#">Cuentas Vinculadas</a></li>
+                  <li><a href="#">Favoritos</a></li>
+                  <li><a href="#">Tus comentarios recientes</a></li>
+                  <li><a href="#">Lista de amigos</a></li>
+                  <li><a href="#">Notas vistas recientemente</a></li>
+                </div>
+                
+                <div>
+                <h3><strong>Categorias</strong></h3>
+                <li><a href="#">Acción</a></li>
+                <li><a href="#">Peleas</a></li> 
+                <li><a href="#">Simuladores</a></li> 
+                <li><a href="#">Shooter</a></li>
+                <li><a href="#">Estrategia</a></li>
+                <li><a href="#">Deportes</a></li> 
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Aventura</a></li>
+                <li><a href="#">Infantiles</a></li>
+                </div>
+                
+            </div>
+  
+  <!-------- Formularios -------->
+              <!-------------- Linea de formulario 1 ------------>
+              <div class="container-fluid">
+                	<div class="row">
+              <h3>Nuevo Truco</h3>
+           <input type="text" size="80" maxlength="30" value="Titulo del truco" name="TituloDeTruco">
+              <div>
+                <div class="col-md-4">
+                <h4>Donde se realiza el truco</h4>
+                <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus anotaciones</textarea>
+                </div>
+                <div class="col-md-4">
+                <h4>Como se realiza el truco</h4>
+                <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus anotaciones</textarea>
+              </div>
+              </div>
+                    
+                    
+                    
+              <!---------- Linea de formulario 2 --------------->      
+               <div class="container-fluid">
+                	<div class="row">
+              <div>
+                <div class="col-md-4">
+                <h4>Resultados del truco</h4>
+                <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus anotaciones</textarea>
+                </div>
+                <div class="col-md-4">
+                <h4>Imagen</h4>
+                <label for="ImagenDeJuego">Subir Imagen</label>
+					      <input type="file" id="ImagenDeJuego"/>
+					      <p class="help-block">Carga una imagen del videojuego</p>
+				      </div>
+              </div>
+                <div class="col-md-4">
+                <h4>Combinacion</h4>
+                <input type="text" size="40" maxlength="40" value="Escribe aqui la combinacion del truco" name="Combinacion">
+              </div>
+              </div>
+                 
+              <!------------ Linea de formulario 3 ----------->
+               <div class="container-fluid">
+                	<div class="row">
+              <div>
+								<div class="col-md-4">
+								<div>
+                <h3><strong>Notas vistas recientemente</strong></h3>
+                <li><a href="#">Dinero infinito en GTA V</a></li>
+                <li><a href="#">Como hackear tu Wii</a></li> 
+                <li><a href="#">Megalodon en Battlefield 4</a></li> 
+                <li><a href="#">Hack de Pokemon GO</a></li>
+                <li><a href="#">Municion infita en GTA San andreas</a></li>
+                <li><a href="#">Records de speedruns</a></li> 
+                <li><a href="#">Como conseguir jetpack en GTA San andreas</a></li>
+                </div>
+								</div>
+                <div class="col-md-4">
+                <h4>Video Tutorial</h4>
+                <video width="320" height="260" poster="https://66.media.tumblr.com/8aac4312a9a9e13dfd4dd38f4a51174d/tumblr_nimdx1SCXQ1r7sijxo1_500.gif" controls>
+                <source src="https://www.youtube.com/watch?v=giSsfPRW908" type="video/mp4">
+                Your browser does not support the video tag.
+               </video>
+                </div>
+                <div class="col-md-4">
+                <p><a href="#" class="btn btn-primary btn-mio" role="button"> Guardar y subir
+                <span class="glyphicon glyphicon-play-circle"></span>
+                </a></p>
+                <div class="progress">
+				        <div class="progress-bar progress-success">
+				        </div>
+			          </div>
+              </div>
+              </div>
+								 </div>
+								 </div>
+              
+  <!--------  Aqui va el footer ------>    
+      <footer>
+				<div class="container-fluid">
+	      <div class="row">
+		    <div class="col-md-4">
+			 
+			<address>
+				 <strong>Universidad La Salle Victoria</strong><br /> Ciudad Victoria<br /> Tamaulipas, Mexico<br />
+			</address>
+		</div>
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			          <h3>Redes Sociales:</h3>
+          <a href="www.facebook.com">
+					<img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" width=45 height=45 alt="Facebook Logo">
+					</a>
+					<a href="www.twitter.com">
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" width=45 height=45 alt="Twitter Logo">
+					</a>
+					<a href="www.instagram.com">
+					<img src="https://img.clipartfest.com/d8983d94fecfb449e6c08687ea0609fb_instagram-new-vector-logo-instagram-logo-clipart-png_512-512.png" width=45 height=45 alt="Instagram Logo">
+					</a>
+		</div>
+	</div>
+</div>
+      </footer>
+
+
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

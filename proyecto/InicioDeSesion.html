@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi aplicación</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    
+</head>
+<body>
+  
+<!-- Header -->
+  
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/">
+                    <img src="" alt="Logo de X Trucos">
+                </a>
+            </div>
+        </div>
+	
+<!-- Botones de inicio -->
+      
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/">Menu Principal
+              <span class="glyphicon glyphicon-home"></span> </a></li>
+            <li role="presentation"><a  href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/InicioDeSesion.html">Iniciar Sesion
+              <span class="glyphicon glyphicon-sunglasses"></span> </a></li>
+            <li role="presentation"><a href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/Perfil.html">Perfil
+              <span class="glyphicon glyphicon-user"></span> </a></li>
+            <li role="presentation"><a href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/Mensajes.html">Mensajes
+               <span class="glyphicon glyphicon-envelope"></span> </a></li>
+          <li role="presentation"><a href="http://desarrollo-web-cruzazul845280826.codeanyapp.com/proyecto/CrearTruco.html">Agregar Truco
+            <span class="glyphicon glyphicon-download-alt"></span> </a></li>
+        </ul>
+    </nav>
+	
+
+<!------- Cuadro de peticion de cuenta de usuario ------->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<form class="form-horizontal" role="form">
+				
+				<!---- Peticion de correo electronico ------->
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">Email:</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" id="inputEmail3" />
+					</div>
+				</div>
+				
+				<!----- Peticion de contraseña --------->
+				<div class="form-group">
+					<label for="inputPassword3" class="col-sm-2 control-label">Contraseña:</label>
+					<div class="col-sm-10">
+						<input type="password" class="form-control" id="inputPassword3" />
+					</div>
+				</div>
+				
+				<!------- Checkbox para recordar a usuario su cuenta ------->
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<div class="checkbox">
+							 
+							<label>
+								<input type="checkbox" /> Recordarme
+							</label>
+						</div>
+					</div>
+				</div>
+				
+				<!------- Boton de inicio de sesion ------->
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						 
+						<button type="submit" class="btn btn-default">Iniciar Sesion</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8">
+
+	
+<!--------  Aqui va el footer ------>	
+      <footer>
+				<div class="container-fluid">
+	      <div class="row">
+		    <div class="col-md-3">
+			 
+			<address>
+				 <strong>Universidad La Salle Victoria</strong><br /> Ciudad Victoria<br /> Tamaulipas, Mexico<br />
+			</address>
+		</div>
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+			          <h3>Redes Sociales:</h3>
+          <a href="www.facebook.com">
+					<img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" width=45 height=45 alt="Facebook Logo">
+					</a>
+					<a href="www.twitter.com">
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" width=45 height=45 alt="Twitter Logo">
+					</a>
+					<a href="www.instagram.com">
+					<img src="https://img.clipartfest.com/d8983d94fecfb449e6c08687ea0609fb_instagram-new-vector-logo-instagram-logo-clipart-png_512-512.png" width=45 height=45 alt="Instagram Logo">
+					</a>
+		</div>
+	</div>
+</div>
+      </footer>
+
+
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
